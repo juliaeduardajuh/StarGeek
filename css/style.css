@@ -1,9 +1,19 @@
-body{
+.body-login{
     background-color: black;
     background-image: url(/img/fundo.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }
+.body-index{
+    background-color: black;
+    background-image: url(/img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.body-inicial{
+    background-color: black;
+}
+
 .entrar
 {
     padding: 10px 20px;
@@ -81,12 +91,18 @@ footer {
 }
 .baxo {
     margin-top: 500px;
-    width: 200px;
+    width: 100%;
     height: 600px;
     background-color: #000;
     color: #ffffff;
     display: flex;
-    flex-direction: row;
+}
+.baxo > div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
 }
 .foot {
     margin-left: 200px;
@@ -109,4 +125,58 @@ footer {
 }
 .h2{
     margin-top: 500px;
+}
+.loginn{
+    text-align: center;
+    margin-top: 500px;
+}
+.loginn > a{
+        border: 3px solid white;   
+}   
+.cabecalho {
+    background-color: rgb(173, 5, 235);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 70px;
+}
+.cabecalho> li{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu>li{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.menu>li>a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.menu>li:hover{
+    background-color: rgba(255,255,255,0.341);
+}
+.icone{
+    margin-top: 10px;
+}
+.titulos{
+    margin-top: 20px;
+}
+.jujuba{
+    display: flex;
+    margin-right: 20px;
+}
+.baiano > img{
+    margin-right: 10px;
+    margin-left: 10px;
 }
