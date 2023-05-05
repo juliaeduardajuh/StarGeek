@@ -4,13 +4,13 @@ p {
 
 .body-login{
     background-color: black;
-    background-image: url(/img/fundo.png);
+    background-image: url(./img/fundo.png);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 .body-index{
     background-color: black;
-    background-image: url(/img/fundo.png);
+    background-image: url(./img/fundo.png);
     background-repeat: no-repeat;
     background-size: cover; 
 }
